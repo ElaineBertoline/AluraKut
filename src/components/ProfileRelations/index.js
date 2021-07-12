@@ -6,8 +6,9 @@ export const ProfileRelationsBoxWrapper = styled(Box)`
     display: grid;
     grid-gap: 8px;
     grid-template-columns: 1fr 1fr 1fr; 
-    max-height: 220px;
+    max-height: 100%;
     list-style: none;
+    //ajustando o tamanho da borda dos favoritos 
   }
   img {
     object-fit: cover;
@@ -15,6 +16,7 @@ export const ProfileRelationsBoxWrapper = styled(Box)`
     width: 100%;
     height: 100%;
     position: relative;
+   
   }
   ul li a {
     display: inline-block;
