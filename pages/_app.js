@@ -1,6 +1,8 @@
 import { createGlobalStyle, ThemeProvider } from 'styled-components'
 import { AlurakutStyles } from '../src/lib/AlurakutCommons';
 
+
+
 const GlobalStyle = createGlobalStyle`
   /* Reset CSS (Necolas Reset CSS <3) */
   * {
@@ -10,7 +12,9 @@ const GlobalStyle = createGlobalStyle`
   }
   body {
     font-family: sans-serif;
-    background-color: #D9E6F6;
+    
+    background-image: url("https://th.bing.com/th/id/OIP.C_t6AYax4sid17vU0BapzgHaE7?w=286&h=190&c=7&o=5&dpr=1.5&pid=1.7");
+  
   }
   #__next {
     display: flex;
